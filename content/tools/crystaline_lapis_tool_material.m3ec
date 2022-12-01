@@ -2,7 +2,7 @@
 toolmaterial: ToolMaterial
 contentid: CrystalineLapisToolMaterial
 tier: CRYSTALINE_LAPIS
-durability: 621
+durability: 300
 enchantability: 30
 miningspeed: 64.5f
 mininglevel: 4

@@ -4,9 +4,9 @@ mod:
 .credits: Made with M3EC!
 .description: Adds more uses for lapis lazuli!
 .title: MoreLapis
-.license: GPLv3
-.sources: 
-.homepage: 
+.license: GPL-3
+.sources: https://github.com/beckadamtheinventor/more-lapis-lazuli
+.homepage: https://modrinth.com/mod/more-lapis-lazuli/
 .iconitem: lapis_brick
 .version: 1.0
 .textures: textures
