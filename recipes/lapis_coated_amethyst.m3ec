@@ -1,0 +1,12 @@
+@: recipe
+recipe: ShapedRecipe
+contentid: lapis_coated_amethyst
++pattern: " L "
++pattern: "LAL"
++pattern: " L "
++itemkeys: L
++items: minecraft:lapis_lazuli
++itemkeys: A
++items: minecraft:amethyst_shard
+result: ${mod.mcpath}:lapis_coated_amethyst
+count: 1

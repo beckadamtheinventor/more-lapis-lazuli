@@ -1,0 +1,11 @@
+@:            tool
+tool:         ToolItem
+contentid:    crystaline_lapis_sword
+class:        CrystalineLapisSword
+tooltype:     SwordItem
+material:     CrystalineLapisToolMaterial
+tooltier:     ModTiers.CRYSTALINE_LAPIS
+attackspeed:  -2.4f
+attackdamage: 3
+title:        Crystaline Lapis Sword
+texture:      crystaline_lapis_sword.png

@@ -1,0 +1,6 @@
+@: recipe
+recipe: ShapelessRecipe
+contentid: lapis_planks
++ingredients: ${mod.mcpath}:lapis_log
+result: ${mod.mcpath}:lapis_planks
+count: 4

@@ -1,0 +1,37 @@
+@: block
+block: PillarBlock
+blockstatetype: 3Axis
+blockclass: PillarBlock
+contentid: lapis_log
+title: Lapis Log
+sounds: WOOD
+material: STONE
+texture_top: lapis_log_top.png
+texture_side: lapis_log.png
+hardness: ${mc.spruce_log.hardness}
+resistance: ${mc.spruce_log.resistance}
+requiresTool: yes
+toolclass: AXES
+toollevel: WOOD
+droptype: Self
+# autogenerate.button: yes
+# autogenerate.button.recipe: yes
+# autogenerate.button.stonecuttingrecipe: yes
+# autogenerate.fence: yes
+# autogenerate.fence.recipe: yes
+# autogenerate.fence.stonecuttingrecipe: yes
+# autogenerate.fencegate: yes
+# autogenerate.fencegate.recipe: yes
+# autogenerate.fencegate.stonecuttingrecipe: yes
+# autogenerate.pressureplate: yes
+# autogenerate.pressureplate.recipe: yes
+# autogenerate.pressureplate.stonecuttingrecipe: yes
+# autogenerate.stairs: yes
+# autogenerate.stairs.recipe: yes
+# autogenerate.stairs.stonecuttingrecipe: yes
+# autogenerate.slab: yes
+# autogenerate.slab.recipe: yes
+# autogenerate.slab.stonecuttingrecipe: yes
+# autogenerate.wall: yes
+# autogenerate.wall.recipe: yes
+# autogenerate.wall.stonecuttingrecipe: yes

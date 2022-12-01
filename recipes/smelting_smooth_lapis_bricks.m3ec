@@ -1,0 +1,8 @@
+@: recipe
+recipe: SmeltingRecipe
+contentid: smelting_smooth_lapis_bricks
+ingredient: ${mod.mcpath}:lapis_bricks
+result: ${mod.mcpath}:smooth_lapis_bricks
+count: 1
+time: 200
+experience: 0.5

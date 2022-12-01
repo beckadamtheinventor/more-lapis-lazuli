@@ -1,0 +1,8 @@
+@: recipe
+recipe: SmokingRecipe
+contentid: lapis_leaves
+ingredient: ${mod.mcpath}:lapis_planks
+result: ${mod.mcpath}:lapis_leaves
+count: 1
+time: 100
+experience: 0.5

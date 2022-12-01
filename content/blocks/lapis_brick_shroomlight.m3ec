@@ -1,0 +1,14 @@
+@: block
+block: PillarBlock
+contentid: lapis_brick_shroomlight
+title: Lapis Brick Shroomlight
+sounds: SHROOMLIGHT
+material: STONE
+texture: lapis_bricks.png
+texture_side: lapis_brick_shroomlight.png
+hardness: 3.0
+resistance: 3.0
+requiresTool: yes
+toolclass: PICKAXES
+toollevel: STONE
+droptype: Self

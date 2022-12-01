@@ -1,0 +1,5 @@
+@: itemfactory
+type: SimpleItem
++items: lapis_brick
++items: crystaline_lapis
++items: lapis_coated_amethyst

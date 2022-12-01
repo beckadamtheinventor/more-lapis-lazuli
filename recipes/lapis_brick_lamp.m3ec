@@ -1,0 +1,12 @@
+@: recipe
+recipe: ShapedRecipe
+contentid: lapis_brick_lamp
++pattern: " L "
++pattern: "LGL"
++pattern: " L "
++itemkeys: L
++items: ${mod.mcpath}:lapis_brick
++itemkeys: G
++items: minecraft:glowstone_dust
+result: ${mod.mcpath}:lapis_brick_lamp
+count: 1

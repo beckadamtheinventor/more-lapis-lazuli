@@ -1,0 +1,12 @@
+@: recipe
+recipe: ShapedRecipe
+contentid: lapis_brick_shroomlight
++pattern: " L "
++pattern: "LSL"
++pattern: " L "
++itemkeys: L
++items: ${mod.mcpath}:lapis_brick
++itemkeys: S
++items: minecraft:shroomlight
+result: ${mod.mcpath}:lapis_brick_shroomlight
+count: 1

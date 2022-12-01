@@ -1,0 +1,18 @@
+@: manifest
+mod: 
+.author: BeckATI
+.credits: Made with M3EC!
+.description: Adds more uses for lapis lazuli!
+.title: MoreLapis
+.license: GPLv3
+.sources: 
+.homepage: 
+.iconitem: lapis_brick
+.version: 1.0
+.textures: textures
++.paths: content
++.paths: recipes
+
+mod.package: com.beckati.morelapis
+mod.prefix: com
+mod.class: MoreLapis

@@ -1,0 +1,11 @@
+@:            tool
+tool:         ToolItem
+contentid:    crystaline_lapis_hoe
+class:        CrystalineLapisHoe
+tooltype:     HoeItem
+material:     CrystalineLapisToolMaterial
+tooltier:     ModTiers.CRYSTALINE_LAPIS
+attackspeed:  -3.0f
+attackdamage: 1
+title:        Crystaline Lapis Hoe
+texture:      crystaline_lapis_hoe.png

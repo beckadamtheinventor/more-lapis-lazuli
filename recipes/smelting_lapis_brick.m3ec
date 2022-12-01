@@ -1,0 +1,8 @@
+@: recipe
+recipe: SmeltingRecipe
+contentid: smelting_lapis_brick
+ingredient: minecraft:lapis_lazuli
+result: ${mod.mcpath}:lapis_brick
+count: 1
+time: 200
+experience: 0.5

@@ -1,0 +1,9 @@
+@: recipe
+recipe: ShapedRecipe
+contentid: lapis_bricks
++pattern: "LL"
++pattern: "LL"
++itemkeys: L
++items: ${mod.mcpath}:lapis_brick
+result: ${mod.mcpath}:lapis_bricks
+count: 1

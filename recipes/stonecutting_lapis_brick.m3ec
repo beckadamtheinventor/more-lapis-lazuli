@@ -1,0 +1,6 @@
+@: recipe
+recipe: StoneCuttingRecipe
+contentid: stonecutting_lapis_brick
+ingredient: ${mod.mcpath}:lapis_bricks
+result: ${mod.mcpath}:lapis_brick
+count: 4

@@ -1,0 +1,8 @@
+@: recipe
+recipe: BlastingRecipe
+contentid: lapis_coated_amethyst
+ingredient: ${mod.mcpath}:lapis_coated_amethyst
+result: ${mod.mcpath}:crystaline_lapis
+count: 1
+time: 100
+experience: 5

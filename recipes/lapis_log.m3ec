@@ -1,0 +1,12 @@
+@: recipe
+recipe: ShapedRecipe
+contentid: lapis_log
++pattern: " B "
++pattern: "BLB"
++pattern: " B "
++itemkeys: L
++items: minecraft:lapis_block
++itemkeys: B
++items: ${mod.mcpath}:lapis_brick
+result: ${mod.mcpath}:lapis_log
+count: 2

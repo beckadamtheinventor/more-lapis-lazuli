@@ -1,0 +1,11 @@
+@:            tool
+tool:         ToolItem
+contentid:    crystaline_lapis_shovel
+class:        CrystalineLapisShovel
+tooltype:     ShovelItem
+material:     CrystalineLapisToolMaterial
+tooltier:     ModTiers.CRYSTALINE_LAPIS
+attackspeed:  -3.0f
+attackdamage: 1
+title:        Crystaline Lapis Shovel
+texture:      crystaline_lapis_shovel.png

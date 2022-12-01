@@ -1,0 +1,12 @@
+@:         recipe
+recipe:    ShapedRecipe
+contentid: crystaline_lapis_shovel
++pattern:   "#"
++pattern:   "s"
++pattern:   "s"
++itemkeys:  #
++items:     ${mod.mcpath}:crystaline_lapis
++itemkeys:  s
++items:     minecraft:stick
+result:     ${mod.mcpath}:crystaline_lapis_shovel
+count:      1

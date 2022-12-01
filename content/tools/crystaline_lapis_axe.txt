@@ -1,0 +1,11 @@
+@:            tool
+tool:         ToolItem
+contentid:    crystaline_lapis_axe
+class:        CrystalineLapisAxe
+tooltype:     AxeItem
+material:     CrystalineLapisToolMaterial
+tooltier:     ModTiers.CRYSTALINE_LAPIS
+attackspeed:  -3.0f
+attackdamage: 4
+title:        Crystaline Lapis Axe
+texture:      crystaline_lapis_axe.png

@@ -1,0 +1,11 @@
+@:            tool
+tool:         ToolItem
+contentid:    crystaline_lapis_pickaxe
+class:        CrystalineLapisPickaxe
+tooltype:     PickaxeItem
+material:     CrystalineLapisToolMaterial
+tooltier:     ModTiers.CRYSTALINE_LAPIS
+attackspeed:  -3.0f
+attackdamage: 1
+title:        Crystaline Lapis Pickaxe
+texture:      crystaline_lapis_pickaxe.png

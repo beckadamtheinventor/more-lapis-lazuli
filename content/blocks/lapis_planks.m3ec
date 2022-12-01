@@ -1,0 +1,34 @@
+@: block
+block: SimpleBlock
+contentid: lapis_planks
+title: Lapis Planks
+sounds: WOOD
+material: STONE
+texture: lapis_planks.png
+hardness: ${mc.spruce_planks.hardness}
+resistance: ${mc.spruce_planks.resistance}
+requiresTool: yes
+toolclass: AXES
+toollevel: WOOD
+droptype: Self
+autogenerate.button: yes
+autogenerate.button.recipe: yes
+autogenerate.button.stonecuttingrecipe: yes
+autogenerate.fence: yes
+autogenerate.fence.recipe: yes
+autogenerate.fence.stonecuttingrecipe: yes
+autogenerate.fencegate: yes
+autogenerate.fencegate.recipe: yes
+autogenerate.fencegate.stonecuttingrecipe: yes
+autogenerate.pressureplate: yes
+autogenerate.pressureplate.recipe: yes
+autogenerate.pressureplate.stonecuttingrecipe: yes
+autogenerate.stairs: yes
+autogenerate.stairs.recipe: yes
+autogenerate.stairs.stonecuttingrecipe: yes
+autogenerate.slab: yes
+autogenerate.slab.recipe: yes
+autogenerate.slab.stonecuttingrecipe: yes
+# autogenerate.wall: yes
+# autogenerate.wall.recipe: yes
+# autogenerate.wall.stonecuttingrecipe: yes

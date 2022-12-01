@@ -1,0 +1,12 @@
+@:         recipe
+recipe:    ShapedRecipe
+contentid: crystaline_lapis_hoe_reversed
++pattern:   "##"
++pattern:   "s "
++pattern:   "s "
++itemkeys:  #
++items:     ${mod.mcpath}:crystaline_lapis
++itemkeys:  s
++items:     minecraft:stick
+result:     ${mod.mcpath}:crystaline_lapis_hoe
+count:      1

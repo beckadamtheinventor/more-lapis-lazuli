@@ -1,0 +1,11 @@
+@: toolmaterial
+toolmaterial: ToolMaterial
+contentid: CrystalineLapisToolMaterial
+tier: CRYSTALINE_LAPIS
+durability: 621
+enchantability: 30
+miningspeed: 64.5f
+mininglevel: 4
+miningtier: DIAMOND
+repairitem: ModItems.CRYSTALINE_LAPIS
+attackdamage: 4.0f
