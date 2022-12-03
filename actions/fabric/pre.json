@@ -1,0 +1,8 @@
+[
+	{
+		"action": "makedir",
+		"value": [
+			"src/main/java/${mod.packagedir}/features"
+		]
+	}
+]

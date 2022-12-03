@@ -1,0 +1,4 @@
+@: class
+class: ${mod.package}.block.ModCustomBlocks
+file: java/forge/ModCustomBlocks.java
++modloaders: forge

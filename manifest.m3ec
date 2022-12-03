@@ -12,7 +12,11 @@ mod:
 .textures: textures
 +.paths: content
 +.paths: recipes
++.paths: classes
 
 mod.package: com.beckati.morelapis
 mod.prefix: com
 mod.class: MoreLapis
+
+@include fabric-extras.m3ec
+@include forge-extras.m3ec

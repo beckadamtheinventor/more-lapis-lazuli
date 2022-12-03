@@ -1,0 +1,6 @@
+@modloader fabric
+
++mainclass.imports: import com.beckati.morelapis.registry.ModCustomBlocks;
++mainclass.onInitialize: ModCustomBlocks.register();
+
++preexecactions: actions/fabric/pre.json

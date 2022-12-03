@@ -1,0 +1,6 @@
+@modloader forge
+
++mainclass.imports: ${mod.package}.block.ModCustomBlocks
++mainclass.onInitialize: ModCustomBlocks.register();
+
++preexecactions: actions/forge/pre.json

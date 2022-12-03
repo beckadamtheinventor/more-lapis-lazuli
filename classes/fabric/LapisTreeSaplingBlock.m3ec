@@ -1,0 +1,4 @@
+@: class
+class: ${mod.package}.blocks.LapisTreeSaplingBlock
+file: java/fabric/LapisTreeSaplingBlock.java
++modloaders: fabric
