@@ -1,0 +1,4 @@
+@: class
+class: ${mod.package}.features.LapisTreeGrower
+file: java/forge/LapisTreeGrower.java
++modloaders: forge

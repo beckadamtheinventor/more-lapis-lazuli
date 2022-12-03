@@ -1,4 +1,0 @@
-@: class
-class: ${mod.package}.features.LapisTreeSaplingGrower
-file: java/forge/LapisTreeSaplingGrower.java
-+modloaders: forge

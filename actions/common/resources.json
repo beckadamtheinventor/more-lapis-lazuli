@@ -1,0 +1,23 @@
+[
+	{
+		"action": "copyf",
+		"source": "${project_path}/customcontent/lapis_sapling/block_model.json",
+		"dest": "${build_path}/src/main/resources/assets/${mod.mcpath}/models/block/lapis_sapling.json"
+	},
+	{
+		"action": "copyf",
+		"source": "${project_path}/customcontent/lapis_sapling/blockstate.json",
+		"dest": "${build_path}/src/main/resources/assets/${mod.mcpath}/blockstates/lapis_sapling.json"
+	},
+	{
+		"action": "copyf",
+		"source": "${project_path}/customcontent/lapis_sapling/loot_table.json",
+		"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/loot_tables/blocks/lapis_sapling.json"
+	},
+	{
+		"action": "copy",
+		"source": "${project_path}/textures/lapis_sapling.png",
+		"dest": "${build_path}/src/main/resources/assets/${mod.mcpath}/textures/blocks/lapis_sapling.png"
+	}
+
+]

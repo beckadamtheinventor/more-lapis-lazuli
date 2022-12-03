@@ -1,6 +1,6 @@
 @modloader forge
 
-+mainclass.imports: ${mod.package}.block.ModCustomBlocks
-+mainclass.onInitialize: ModCustomBlocks.register();
++modblocks.extramodblocks: public static final RegistryObject<Block> LAPIS_TREE_SAPLING = registerBlock("lapis_sapling", () -> new ModSaplingBlock(new LapisTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING), () -> Blocks.STONE), ModCreativeModeTab.TAB);
++modblocks.imports: ${mod.package}.features.LapisTreeGrower
 
 +preexecactions: actions/forge/pre.json

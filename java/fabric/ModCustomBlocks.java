@@ -15,7 +15,7 @@ public class ModCustomBlocks {
             new LapisTreeSaplingBlock(new LapisTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING));
 
     public static void register() {
-        Registry.register(Registry.BLOCK, new Identifier(${mod.class}.MOD_ID, "lapis_tree_sapling"), LAPIS_TREE_SAPLING);
-        Registry.register(Registry.ITEM, new Identifier(${mod.class}.MOD_ID, "lapis_tree_sapling"), new BlockItem(LAPIS_TREE_SAPLING, new FabricItemSettings().group(${mod.class}.ITEM_GROUP)));
+        Registry.register(Registry.BLOCK, new Identifier(${mod.class}.MOD_ID, "lapis_sapling"), LAPIS_TREE_SAPLING);
+        Registry.register(Registry.ITEM, new Identifier(${mod.class}.MOD_ID, "lapis_sapling"), new BlockItem(LAPIS_TREE_SAPLING, new FabricItemSettings().group(${mod.class}.ITEM_GROUP)));
     }
 }
