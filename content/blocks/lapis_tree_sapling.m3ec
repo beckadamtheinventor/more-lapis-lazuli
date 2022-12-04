@@ -1,0 +1,25 @@
+@: sapling
+sapling: CrossBlock
+blockstatetype: Sapling
+class: LapisTree
+contentid: lapis_tree_sapling
+title: Lapis Tree Sapling
+texture: lapis_sapling.png
+droptype: Self
+hardness: ${mc.oak_sapling.hardness}
+resistance: ${mc.oak_sapling.resistance}
+material: LEAVES
+sounds: GRASS
+toolclass: AXES
+toollevel: WOOD
+requiresTool: no
+
+logblock: ModBlocks.LAPIS_LOG
+baseheight: 6
+randomheighta: 0
+randomheightb: 3
+
+leafblock: ModBlocks.LAPIS_LEAVES
+leafradius: 4
+leafoffset: 0
+leafheight: 2
