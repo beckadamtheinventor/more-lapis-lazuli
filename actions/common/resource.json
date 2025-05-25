@@ -1,0 +1,82 @@
+[
+	{
+		"action": "makedir",
+		"value": [
+			"${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/structure",
+			"${build_path}/src/main/resources/data/${mod.mcpath}/worldgen",
+			"${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/template_pool",
+			"${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/structure_set"
+		]
+	},
+	{
+		"if": "?gameversion.major >= 21",
+		"action": "makedir",
+		"value": [
+			"${build_path}/src/main/resources/data/${mod.mcpath}/structure"
+		]
+	},
+	{
+		"if": "?gameversion.major < 21",
+		"action": "makedir",
+		"value": [
+			"${build_path}/src/main/resources/data/${mod.mcpath}/structures"
+		]
+	},
+	{
+		"if": "?gameversion.major >= 21",
+		"action": "copy",
+		"source": "${project_path}/customcontent/structures/structures/",
+		"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/structure/"
+	},
+	{
+		"if": "?gameversion.major < 21",
+		"action": "copy",
+		"source": "${project_path}/customcontent/structures/structures/",
+		"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/structures/"
+	},
+	{
+		"iterate": [
+			["lapis_hut", 100, 1],
+			["lapis_tree_small", 100, 1],
+			["lapis_tree", 100, 1]
+		],
+		"action": "execactions",
+		"actions": [
+			{
+				"action": "setkey",
+				"key": "structure.name",
+				"value": "${%v^[0]}"
+			},
+			{
+				"action": "setkey",
+				"key": "structure.salt",
+				"value": "${%v^[0]^hash^truncbits(31)^abs}"
+			},
+			{
+				"action": "setkey",
+				"key": "structure.spacing",
+				"value": "${%v^[1]}"
+			},
+			{
+				"action": "setkey",
+				"key": "structure.separation",
+				"value": "${%v^[2]}"
+			},
+			{
+				"action": "copyf",
+				"source": "${project_path}/customcontent/structures/${gameversion}/structure.json",
+				"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/structure/${structure.name}.json"
+			},
+			{
+				"action": "copyf",
+				"source": "${project_path}/customcontent/structures/${gameversion}/structure_pool.json",
+				"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/template_pool/${structure.name}.json"
+			},
+			{
+				"action": "copyf",
+				"source": "${project_path}/customcontent/structures/${gameversion}/structure_set.json",
+				"dest": "${build_path}/src/main/resources/data/${mod.mcpath}/worldgen/structure_set/${structure.name}.json"
+			}
+		]
+	}
+]

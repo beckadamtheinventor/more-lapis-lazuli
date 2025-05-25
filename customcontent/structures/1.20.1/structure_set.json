@@ -1,0 +1,19 @@
+{
+  "structures": [
+	{
+	  "structure": "${mod.mcpath}:${structure.name}",
+	  "weight": 1
+	}
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": ${structure.spacing},
+    "separation": ${structure.separation},
+    "salt": ${structure.salt},
+    "locate_offset": [
+      2,
+      2,
+      2
+    ]
+  }
+}
